@@ -1,0 +1,115 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  border: 2px solid #a2a2a6;
+  box-sizing: border-box;
+  margin: 20px 20px;
+  padding: 20px 10px 50px 20px;
+}
+.color-container {
+ display: flex;
+}
+.color-panel {
+  flex: 1 1 100%;
+  text-align: center;
+  margin: 5px;
+}
+.eggshell {
+  background-color: #f4f1de;
+  color: black;
+}
+.terracotta {
+  background-color: #e07a5f;
+  color: black;
+}
+.independence {
+  background-color: #3d405b;
+  color: white;
+}
+.greensheen {
+  background-color: #81b29a;
+  color: black;
+}
+.deepchampagne {
+  background-color: #f2cc8f;
+  color: black;
+}
+.text-panel {
+  padding: 20px;
+  display: inline-block;
+  width: 36%;
+}
+.font-panel {
+  width: 36%;
+  display: inline-block;
+  padding: 20px;
+}
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.robotolight300italic {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+.robotoregular400 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.robotoblack900 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.montserratthin100italic {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 100;
+}
+.montserratregular400 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.montserratblack900italic {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+}
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+.oswaldregular400 {
+  font-family: "Oswald";
+  font-weight: 400;
+}
+.h1 {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 35px;
+  font-weight: 800;
+}
+.h2 {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 25px;
+}
+.p {
+  font-family: "Montserrat";
+}
+.footer {
+  font-family: "Oswald";
+}
+@media only screen and (max-width: 600px) {
+  .color-container {
+    display: unset;
+   }
+}
